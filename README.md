@@ -49,7 +49,7 @@ def __hash__(self):
 - mappings such as dictionaries become FrozenDict instances
 
 ``` python
- [in] >>> from deep_freeze imoprt freeze
+ [in] >>> from deep_freeze import freeze
  [in] >>> dct = {'x': 3, 'y': 4, 'z': {'a': 0, 'b': [3,1,{4,1},[5,9]]}}
  [in] >>> frz = freeze(dct)
  [in] >>> print(frz)
